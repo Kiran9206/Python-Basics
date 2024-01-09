@@ -16,11 +16,27 @@ Sample Input 2
 Sample Output 2 '''
 
 
-
+'''
 digi = int(input("Enter the digits"))
 
 sum = 0
 for i in range(len(str(digi))+1):
     sum += i
 
-print(f"sum of {digi} : {sum}")
+print(f"sum of {digi} : {sum}")'''
+
+a = input("please enter 3 digit number")
+
+
+b = a[:1]
+b = int(b)
+c = a[1:2]
+c = int(c)
+d = a[2:]
+d = int(d)
+print(type(a))
+
+
+print(a[2])
+
+print(f"sum : ",b+c+d)
