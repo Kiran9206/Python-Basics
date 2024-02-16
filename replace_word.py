@@ -41,10 +41,26 @@ Note: use only string slicing
 
 
 
-str1 = input("str1")
-a = int(input("a"))
-b= input("b")
+# str1 = input("str1")
+# a = int(input("a"))
+# b= input("b")
 
-str1[a:a] = b
+# str1[a:a] = b
 
-print(str1)
+# print(str1)
+
+
+a = 2
+b =4
+c = a/b
+print(c)
+print(f"remainder : {(a - (c*b))}")
+
+# without modulo
+
+a = 2
+b =21
+c = a/b
+print(c)
+print((c*b))
+print(f"remainder : {(a - (c*b))}")
