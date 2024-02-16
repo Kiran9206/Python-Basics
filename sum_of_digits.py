@@ -27,13 +27,13 @@ print(f"sum of {digi} : {sum}")'''
 
 a = input("please enter 3 digit number")
 
-
-b = a[:1]
-b = int(b)
-c = a[1:2]
-c = int(c)
-d = a[2:]
-d = int(d)
+b = int(a[0])
+# b = a[:1]
+# b = int(b)
+c = int(a[1])
+# c = int(c)
+d = int(a[2])
+# d = int(d)
 print(type(a))
 
 
